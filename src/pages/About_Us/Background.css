@@ -1,0 +1,76 @@
+.background {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Optional: vertically center content */
+  }
+  
+  .left-coln, .right-coln {
+    flex: 1; /* Equal width for both columns */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .left-coln img {
+    margin-top: 2rem;
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+    height:auto;
+    border-radius: 10px;
+  }
+  
+  
+  .right-coln-heading, .h3 {
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 10px;
+  }
+  
+  .right-coln p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .right-coln p:last-child {
+    margin-bottom: 0;
+  }
+  .circular-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #41a58d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .activities{
+    display: flex;
+    gap:0.5rem;
+    border: 2px solid #41a58d;
+    padding: 5px;
+    width: 75%;
+    height: 25%;
+  }
+  button {
+  background-color: #41a58d; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+  @media (max-width: 900px){
+
+    .background {
+        display: flex;
+       flex-direction: column;
+      }
+      .right-coln-heading, .h3 {
+        font-size: 16px;
+        font-weight:400;
+        margin-bottom: 10px;
+      }
+  }

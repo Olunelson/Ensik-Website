@@ -1,0 +1,70 @@
+.contact{
+   max-width: 800px;
+   
+    background: linear-gradient(
+        rgba(207, 207, 209, 0.7),
+        rgba(4, 9, 30, 0.7)
+      ), url('/maltina_background.png') no-repeat center;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+    animation: fadeIn 2s;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.icon-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon-container hr {
+
+    margin-left: 10px;
+    margin-right:10px ;
+  }
+  
+  .icon {
+    font-size: 50px;
+    margin: 0 10px; /* Adjust the margin as needed */
+    
+    color: aliceblue;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    color: #41a58d;
+    margin: auto;
+    
+  }
+  .details h3{
+    font-size: 20px;
+  }
+  .count{
+    font-size: 26px;
+    color: aliceblue;
+  }
+
+  @media (max-width: 750px){
+    .contact{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .details{
+        margin-top: 20px;
+    }
+    .count{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .icon-container hr {
+        margin: 45px 45px 45px;
+      }
+}

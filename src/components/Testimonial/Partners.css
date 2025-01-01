@@ -1,0 +1,15 @@
+.partners{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: max(2vw, 22px);
+    color: #41a58d;
+}
+
+.partner-image{
+    width: 200px;
+    height: 150px;
+   padding-right: 20px;
+}

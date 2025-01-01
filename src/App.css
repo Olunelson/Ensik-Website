@@ -1,0 +1,28 @@
+.scrolling-text {
+  position: relative;
+  white-space: nowrap; 
+  animation: scroll-text 20s linear infinite;
+  text-overflow: inherit;
+  text-align: center;
+  padding-top: 10px;
+}
+.heading_text_container{
+  width: 100%; 
+  overflow: hidden; 
+  height: 35px;
+  background-color: #41a58d;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  position: sticky;
+  
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(75%);
+  }
+  100% {
+    transform: translateX(-75%);
+  }
+}

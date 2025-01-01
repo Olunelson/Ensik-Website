@@ -1,0 +1,68 @@
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+   
+    cursor: pointer;
+}
+.hero-btn:hover {
+    border: 1px solid #fff;
+    background: #41a58d;
+    transition: 2s;
+  }
+.header{
+  position: relative;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(
+        rgba(54, 54, 105, 0.7),
+        rgba(4, 9, 30, 0.7)
+      ), url('/building.jpeg') no-repeat center;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+    animation: fadeIn 2s;
+    
+}
+.inner-content{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+.inner-content h1 {
+    color: #41a58d;
+    font-size: 62px;
+  }
+  .inner-content p {
+    margin: 10px 0 40px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  @media(max-width:900px){
+    .inner-content h1 {
+        font-size: 32px;
+      }
+      .inner-content{
+        position: relative;
+      }
+  }
+  @media(max-width:300px){
+    .inner-content h1 {
+      font-size: 16px;
+    }
+    .inner-content p{
+      font-size: 10px;
+    }
+    .hero-btn{
+      font-size: 8px;
+    }
+    .header{
+      height: 50vw;
+    }
+  }
