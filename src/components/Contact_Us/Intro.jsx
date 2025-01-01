@@ -1,4 +1,4 @@
-const Interest = () => {
+const Intro = () => {
   return (
     <section className="gallery-header">
       <h6>Interested in being our distributor{"?"}</h6>
@@ -10,4 +10,4 @@ const Interest = () => {
   );
 };
 
-export default Interest;
+export default Intro;

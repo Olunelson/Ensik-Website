@@ -12,7 +12,8 @@ import Focus from "./pages/Focus/Focus";
 import Service from "./pages/Service/Service";
 import Gallery from "./pages/Gallery/Gallery";
 import Background from "./pages/About_Us/Background";
-import Interest from "./components/Contact_Us/interest";
+
+import Intro from "./components/Contact_Us/Intro";
 
 const App = () => {
   return (
@@ -37,7 +38,7 @@ const App = () => {
             path="/Contact"
             element={
               <>
-                <Interest />
+                <Intro />
                 <GetInTouch />
               </>
             }
