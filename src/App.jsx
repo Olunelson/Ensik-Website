@@ -38,7 +38,6 @@ const App = () => {
             element={
               <>
                 <Interest />
-
                 <GetInTouch />
               </>
             }
