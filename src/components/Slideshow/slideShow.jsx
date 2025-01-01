@@ -1,5 +1,5 @@
 import React from "react";
-import "./Slideshow.css";
+import "./slideShow.css";
 import { sliderImage } from "../../assets/assets";
 const delay = 2500;
 const Slideshow = () => {
