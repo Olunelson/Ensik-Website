@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
           <div className="social-media-icons">
             <a
-              href="https://www.facebook.com/"
+              href="https://web.facebook.com/profile.php?id=61569745273616"
               target="_blank"
               rel="noopener noreferrer"
               className="social-media-icon"
@@ -41,7 +41,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faYoutube} />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/ensik_global"
               target="_blank"
               rel="noopener noreferrer"
               className="social-media-icon-insta"

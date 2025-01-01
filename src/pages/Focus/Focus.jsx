@@ -6,7 +6,7 @@ const Focus = () => {
   return (
     <>
       <div className="our-product" id="our-product">
-        <h1>OUR PRODUCTS</h1>
+        <h1>Our Products</h1>
         <p className="title">Non-Alchoholic Drinks</p>
         <div className="product-scroll">
           <div className="product-row">

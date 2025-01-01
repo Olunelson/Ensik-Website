@@ -6,12 +6,11 @@ const About = () => {
     <>
       <hr />
       <div className="about-us" id="about-us">
-        <h4>We bridge the Gap between anchors and consumers</h4>
+        <h4>We bridge the Gap between anchors and consumers.</h4>
         <p className="about-header">
           {" "}
           Excellence in <strong>Procurement</strong> and{" "}
-          <strong>Distribution</strong> of high <strong>Quality</strong> NBL
-          Products
+          <strong>Distribution</strong> of<strong>Quality</strong> NBL Products.
         </p>
         <div className="about-content">
           <div className="content-left">
@@ -19,7 +18,7 @@ const About = () => {
             <h3>Our Mission</h3>
             <p>
               Our mission is to bridge the gap between our anchors (NBL Plc) and
-              the Northern Market through the distribution of quality products
+              the Northern Market through the distribution of quality products.
             </p>
           </div>
           <div className="content-left">
@@ -27,7 +26,7 @@ const About = () => {
             <h3>Our Vision</h3>
             <p>
               To be the Number One (1) Distributor of NBL products in Nigeria
-              and the most trusted partners by our vendors
+              and a trusted partner by our vendors
             </p>
           </div>
           <div className="content-left">
