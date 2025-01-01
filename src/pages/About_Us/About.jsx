@@ -26,7 +26,7 @@ const About = () => {
             <h3>Our Vision</h3>
             <p>
               To be the Number One (1) Distributor of NBL products in Nigeria
-              and a trusted partner by our vendors
+              and a trusted partner by our vendors.
             </p>
           </div>
           <div className="content-left">
