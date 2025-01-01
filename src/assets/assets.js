@@ -2,7 +2,7 @@
 import three3 from '../assets/33.png'
 import logo_image from '../assets/logo_image.png'
 import building from '../assets/building.jpeg'
-import chamdor_wine from '../assets/chamdor_Red.png'
+import Chamdor_Red from '../assets/Chamdor_Red.png'
 import climax from '../assets/climax_blue.png'
 import contact_us from '../assets/contact_us.jpg'
 import crates from '../assets/crates.jpeg'
@@ -92,7 +92,7 @@ logo_footer,
  values,
  telephone,
  three3,
- chamdor_wine,
+ Chamdor_Red,
 climax,
 wine1,
 wine4,
@@ -200,7 +200,7 @@ export const offeringList = [
 export const wineList = [
     {   id: 1,
         name: 'Chamdor',
-        product_image : chamdor_wine
+        product_image : Chamdor_Red
     },
     {   id: 2,
         name: 'Casa Dorada',
