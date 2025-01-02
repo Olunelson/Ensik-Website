@@ -13,7 +13,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Connect with us
+          Chat with us
         </a>
       </div>
     </div>
