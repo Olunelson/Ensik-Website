@@ -10,7 +10,8 @@ const About = () => {
         <p className="about-header">
           {" "}
           Excellence in <strong>Procurement</strong> and{" "}
-          <strong>Distribution</strong> of<strong>Quality</strong> NBL Products.
+          <strong>Distribution</strong> of <strong>Quality</strong> NBL
+          Products.
         </p>
         <div className="about-content">
           <div className="content-left">
