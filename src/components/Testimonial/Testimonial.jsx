@@ -14,7 +14,7 @@ const Testimonial = () => {
         <p>Testimonials from our stakeholders</p>
         <div className="row">
           <div className="testimonial-col">
-            <img src={assets.Capture2} alt="Testimonial Image 1" />
+            <img src={assets.saheed} alt="Testimonial Image 1" />
             <div className="testimonial-col-content">
               <p>
                 Ensik Global is a shrewd business woman with proven track of
