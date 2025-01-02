@@ -71,11 +71,13 @@ import la from '../assets/la.jpeg'
 import Nbl from '../assets/Nbl.png'
 import accessbank from '../assets/accessbank.png'
 import premiumtrust from '../assets/premiumtrust.jpeg'
+import Capture2 from '../assets/Capture2.png'
 export const assets = {
     premiumtrust,
     award_download,
     accessbank,
     Nbl,
+    Capture2,
     img1,
     img2,
     img3,

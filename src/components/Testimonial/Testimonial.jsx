@@ -14,7 +14,7 @@ const Testimonial = () => {
         <p>Testimonials from our stakeholders</p>
         <div className="row">
           <div className="testimonial-col">
-            <img src={assets.download} alt="Testimonial Image 1" />
+            <img src={assets.Capture2} alt="Testimonial Image 1" />
             <div className="testimonial-col-content">
               <p>
                 Ensik Global is a shrewd business woman with proven track of
@@ -57,8 +57,8 @@ const Testimonial = () => {
             <div className="testimonial-col-content">
               <p>
                 Mrs Eno has a great facility and good customer welfare package.{" "}
-                {`I've`} known her personally for over 1oyears in the
-                aggregation business
+                {`I've`} known her personally for over 10years in business. I
+                got my first motorcycle through her promo
               </p>
               <h3>Alh Alhassan </h3>
               <h4>Trader</h4>
