@@ -68,6 +68,7 @@ import stock4 from '../assets/stock4.jpeg'
 import loading from '../assets/loading.jpeg'
 import maltina_background from '../assets/maltina_background.png'
 import lacasera from '../assets/lacasera.jpeg'
+import la from '../assets/la.jpeg'
 import Nbl from '../assets/Nbl.png'
 import accessbank from '../assets/accessbank.png'
 import premiumtrust from '../assets/premiumtrust.jpeg'
@@ -455,7 +456,7 @@ export const partnerList = [
     },
     {
         id: 2,
-        image: lacasera,
+        image: la,
         Name: "Lacasera"
     },
     {
