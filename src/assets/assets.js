@@ -72,6 +72,8 @@ import Nbl from '../assets/Nbl.png'
 import accessbank from '../assets/accessbank.png'
 import premiumtrust from '../assets/premiumtrust.jpeg'
 import saheed from '../assets/saheed.png'
+import cway from '../assets/cway.jpeg'
+
 export const assets = {
     premiumtrust,
     award_download,
@@ -469,6 +471,11 @@ export const partnerList = [
         id: 4,
         image: premiumtrust,
         Name: "Premium Trust"
+    },
+    {
+        id: 5,
+        image: cway,
+        Name: "Cway"
     },
 
 ]
